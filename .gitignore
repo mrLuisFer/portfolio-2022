@@ -3,7 +3,9 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+.gpnp.js
+yarn.lock
+package-lock.json
 
 # testing
 /coverage
