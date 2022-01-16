@@ -2,7 +2,7 @@ import { AppType, RenderPage } from "next/dist/shared/lib/utils";
 import Document, { DocumentContext, DocumentInitialProps } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
-export default class MyDocument extends Document {
+export default class AppDocument extends Document {
   static async getStaticProps(ctx: DocumentContext) {
     const sheet: ServerStyleSheet = new ServerStyleSheet();
     const originalRenderPage: RenderPage = ctx.renderPage;
