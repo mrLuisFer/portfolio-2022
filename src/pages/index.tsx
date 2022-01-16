@@ -1,16 +1,12 @@
-import type { NextPage } from "next";
-import styled from "styled-components";
-
-const P = styled.p`
-  color: red;
-`;
+import type { NextPage } from "next"
+// import styled from "styled-components";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <P>Hello world</P>
+      <p>Hello</p>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
